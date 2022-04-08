@@ -60,7 +60,7 @@ test('203_Cuando_CreacionPartidos_Deberia_CrearseLosPartidosDelGrupo',() => {
 });
 
 
-test('204_Cuando_SePidePartido1_Deberia_DevolverElPartido1DelGrupoLocalEquipo1VisitanteEquipo2',() => {
+test('204_cuando_SePidePartido1_Deberia_DevolverElPartido1DelGrupoLocalEquipo1VisitanteEquipo2',() => {
     const g = new Grupos("C");
     g.AgregarEquipo(new Equipo("Argentina", "AR"));
     g.AgregarEquipo(new Equipo("Mexico", "MX"));
